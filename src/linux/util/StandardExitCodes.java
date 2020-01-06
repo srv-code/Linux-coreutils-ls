@@ -1,4 +1,4 @@
-package util;
+package linux.util;
 
 public final class StandardExitCodes {
     // ******* Developer Note *******

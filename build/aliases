@@ -1,0 +1,2 @@
+b='javac -d out src/linux/util/StandardExitCodes.java src/linux/util/fs/List.java src/Main.java'
+r='java -cp out Main'
