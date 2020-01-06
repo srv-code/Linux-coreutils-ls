@@ -35,7 +35,7 @@ public class List {
      * <p> - s = size = file size
      * <p> - m = mtime = modification time
      * <p> - t = type = file type
-    */
+     * */
     private final char sortBy;
     private final boolean sortInAsc;
     private final java.util.List<Path> filesToDisplay;
@@ -59,8 +59,9 @@ public class List {
 
     /**
      * Main method of command
+     * @throws Exception For any programming error: Fatal error
      * */
-    public void showList() throws Exception { /* For any programming error : Fatal Error */
+    public void showList() throws Exception {
         for(Path path : filesToDisplay) {
             if(Files.isDirectory(path)) {
                 if(showRecursively) {

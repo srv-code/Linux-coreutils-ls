@@ -52,9 +52,11 @@ public class Main {
         }
     }
 
-    private static void setOptions(final String[] args)
-            throws  IllegalArgumentException, /* For any error in provided argument(s) */
-            AssertionError { /* For programming error */
+    /**
+     * @throws IllegalArgumentException For any error in provided argument(s).
+     * @throws AssertionError For programming error.
+     */
+    private static void setOptions(final String[] args) throws  IllegalArgumentException, AssertionError {
         char requireArgumentForOption = 0;
         for(String arg: args) {
 //          System.out.printf("    [arg: %s, requireArgumentForOption=%c (%<d)]\n", arg, (int)requireArgumentForOption); // DEBUG
