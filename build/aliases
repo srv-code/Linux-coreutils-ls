@@ -1,2 +1,2 @@
-b='javac -d out src/linux/StandardExitCodes.java src/linux/util/fs/List.java src/Main.java'
-r='java -cp out Main'
+alias b='javac -d out src/tester/StandardExitCodes.java src/linux/util/fs/List.java src/tester/Main.java'
+alias r='java -cp out tester.Main'

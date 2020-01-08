@@ -1,3 +1,6 @@
+package tester;
+
+
 public final class StandardExitCodes {
     /* Exit Values Constants */
     public static final int NORMAL = 0;
